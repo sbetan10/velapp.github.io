@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/vel-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "59140078-93de-460c-afde-32a95a93700e"
+    "analytics": false
   }
 }
